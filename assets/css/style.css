@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Orbitron:100,200,300,400,500,600,700');
+
+/*-------------------------------------------------Top Row-*/
+
+.top-row {
+    min-height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    color: #000;
+    background-color: #444;
+}
+
+.main-title-font {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    padding: 30px;
+}
+
+.play-now {
+    color: #000;
+    background-color: #888;
+}
+
+.play-now-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    padding: 10;
+}
+
+.header-wrapper {
+    margin-top: 30px;
+}
+
+.title-divider {
+    width: 100px;
+    height: 3px;
+    border: 0;
+    background-color: #352582;
+}
+
+/*----------------------------------------------Sub Header-*/
+
+.sub-header {
+    min-height: 120px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #aaa;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+/*-------------------------------------------------Section-*/
+
+.tb-pic {
+    background: url('/assets/images/tb.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    /*margin-bottom: 30px;*/
+
+}
+
+.main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.7em;
+    background-color: #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 360px;
+    /*margin-bottom: 30px;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.raf-link {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: #999;
+}
+
+/*--------------------------------------------------Footer-*/
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    line-height: 1.7em;
+}
+
+
+/*-------------------------------------------Media-Queries-*/
+
+/* NOT SURE NEEDED ATM??
+@media(min-width: 992px) {
+    .even-column {
+        float: none;
+        display: table-cell;
+    }
+}
+*/
