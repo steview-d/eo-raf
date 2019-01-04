@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Orbitron:100,200,300,400,500,600,700');
 
+.content-width {
+    width: 70%;
+}
+
+/*----------------------------------------Background Image-*/
+
+body {
+    background-color: #000;
+    background-image: url('/assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.bg-fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.05)
+}
+
 /*-------------------------------------------------Top Row-*/
 
 .top-row {
@@ -88,7 +111,6 @@
     padding: 15px 15px 0px;
     min-height: 345px;
     margin-bottom: 30px;
-
 }
 
 /*
@@ -141,11 +163,8 @@ footer p {
 
 /*-------------------------------------------Media-Queries-*/
 
-/* NOT SURE NEEDED ATM??
-@media(min-width: 992px) {
-    .even-column {
-        float: none;
-        display: table-cell;
+@media(max-width: 991px) {
+    .content-width {
+        width: 90%;
     }
 }
-*/
