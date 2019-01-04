@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    /*margin-bottom: 30px;*/
+    margin-bottom: 30px;
 
 }
 
@@ -85,14 +85,19 @@
     font-size: 1.1em;
     line-height: 1.7em;
     background-color: #ccc;
-    padding-left: 15px;
-    padding-right: 15px;
-    min-height: 360px;
-    /*margin-bottom: 30px;*/
+    padding: 15px 15px 0px;
+    min-height: 345px;
+    margin-bottom: 30px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+/*
+.main-text h3 {
+    font-weight: 500;
+}*/
+
+.main-text p {
+    margin: 0;
 }
 
 .raf-link {
@@ -102,7 +107,22 @@
     text-align: center;
     padding: 30px;
     background-color: #999;
+    margin-bottom: 30px;
 }
+
+/*---------------------------------------------------FAQ's-*/
+
+.faqs {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    background-color: #aaa;
+    padding: 15px 15px 0px;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
 
 /*--------------------------------------------------Footer-*/
 
@@ -115,7 +135,6 @@ footer p {
     border-width: 1px;
     background-color: #fff;
     padding: 30px;
-    margin-top: 100px;
     line-height: 1.7em;
 }
 
