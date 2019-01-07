@@ -1,67 +1,81 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Orbitron:100,200,300,400,500,600,700');
 
+/*------------------------------------------------Wrappers-*/
+
+.wrapper-white {
+    width: 60%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.wrapper-black {
+    width: 60%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .content-width {
-    width: 70%;
-}
-
-/*----------------------------------------Background Image-*/
-
-body {
-    background-color: #000;
-    background-image: url('/assets/images/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-.bg-fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200%;
     width: 100%;
-    background-color: rgba(255,255,255,0.05)
+}
+
+.add-cell {
+    display: table-cell;
 }
 
 /*-------------------------------------------------Top Row-*/
 
-.top-row {
-    min-height: 200px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
+.equal {
     display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
 }
 
 .main-title {
-    color: #000;
-    background-color: #444;
-}
-
-.main-title-font {
     font-family: "Orbitron", sans-serif;
-    font-weight: 500;
-    font-size: 48px;
+    font-weight: 700;
+    font-size: 54px;
     text-align: center;
-    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 10px;
+    margin: 0 auto;
+
 }
 
-.play-now {
-    color: #000;
-    background-color: #888;
+.implant {
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
+    box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
+    text-align: center;
+    padding: 20px 0px 10px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: rgba(160, 160, 160, 0.4);
+    margin: 22px 15px 28px 0;
 }
 
-.play-now-font {
+.implant-text {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 36px;
-    padding: 10;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+    padding: 0px 20px 0px;
 }
 
-.header-wrapper {
-    margin-top: 30px;
+.implant img {
+    width: 60%;
+    height: auto;
+}
+
+.black-border {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000;
+    margin-left: -10px;
+    margin-right: 10px;
 }
 
 .title-divider {
@@ -69,6 +83,23 @@ body {
     height: 3px;
     border: 0;
     background-color: #352582;
+}
+
+
+.NOTUSEDtop-row {
+    /*min-height: 140px;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.NOTUSEDheader-wrapper {
+    margin-top: 30px;
+}
+
+.main-titleOLD {
+    /*min-height: 260px;*/
+    align-items: center;
+    justify-content: center;
 }
 
 /*----------------------------------------------Sub Header-*/
@@ -83,8 +114,9 @@ body {
     justify-content: center;
     text-align: center;
 
-    background-color: #aaa;
-
+    background-color: #000;
+    color: #fff;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 36px;
@@ -94,12 +126,15 @@ body {
 
 .tb-pic {
     background: url('/assets/images/tb.jpg');
+    background-color: #000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    border-width: 5px;
+    border-color: #000;
+    border-style: solid;
     margin-bottom: 30px;
-
 }
 
 .main-text {
@@ -128,8 +163,22 @@ body {
     font-size: 50px;
     text-align: center;
     padding: 30px;
-    background-color: #999;
+    background-color: #000;
+    color: #fff;
     margin-bottom: 30px;
+}
+
+.raf-link:hover {
+    padding: 26px;
+    border-width: 4px 0;
+    border-color: #000;
+    border-style: solid;
+    background-color: #e26d00;
+    color: #000;
+}
+
+.raf-link p {
+    margin: 0;
 }
 
 /*---------------------------------------------------FAQ's-*/
@@ -152,19 +201,55 @@ footer p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 11px;
-    border-style: solid;
-    border-color: #000;
-    border-width: 1px;
-    background-color: #fff;
-    padding: 30px;
+    color: #ccc;
+    background-color: #333;
+    padding: 15px;
     line-height: 1.7em;
+    margin: 0;
 }
 
+/*----------------------------------------Background Image-*/
+
+body {
+    background-color: #000;
+    background-image: url('/assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+
+}
+
+
+.bg-fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+/*----------------------------------------------------Misc-*/
+
+.raf-link a {
+    text-decoration: none;
+    color: #fff;
+
+}
 
 /*-------------------------------------------Media-Queries-*/
 
 @media(max-width: 991px) {
-    .content-width {
+    .wrapper-white {
+        width: 90%;
+    }
+    .wrapper-black {
         width: 90%;
     }
 }
