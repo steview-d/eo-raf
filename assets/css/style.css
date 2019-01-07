@@ -108,6 +108,7 @@
     min-height: 120px;
     margin-top: 0px;
     margin-bottom: 30px;
+    padding: 0 15px;
 
     display: flex;
     align-items: center;
@@ -116,7 +117,7 @@
 
     background-color: #000;
     color: #fff;
-    
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 36px;
@@ -140,21 +141,25 @@
 .main-text {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 1.1em;
-    line-height: 1.7em;
-    background-color: #ccc;
-    padding: 15px 15px 0px;
-    min-height: 345px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+
+    padding: 0px 15px 15px 15px;
+
     margin-bottom: 30px;
 }
 
-/*
-.main-text h3 {
-    font-weight: 500;
-}*/
 
-.main-text p {
-    margin: 0;
+.main-text h3 {
+    margin-top: 0px;
+}
+
+.mt-left-col {
+    padding-right: 5px;
+}
+
+.mt-right-col {
+    padding-left: 5px;
 }
 
 .raf-link {
@@ -237,10 +242,8 @@ body {
 
 /*----------------------------------------------------Misc-*/
 
-.raf-link a {
+.content-width a {
     text-decoration: none;
-    color: #fff;
-
 }
 
 /*-------------------------------------------Media-Queries-*/
