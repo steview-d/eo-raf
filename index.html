@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eve Online | Recruit A Friend</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -26,16 +27,24 @@
                     <!--</div>-->
                 </div>
                 <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="upgrade text-center">
+                        <h3>LIMITED TIME OFFER</h3>
+                        <p><i class="fas fa-coins text-center"></i> <i class="fas fa-coins text-center"></i></p>
+                        <h4>Get 600 MILLION ISK instead of 300!</h4>
+                    </div>
+
+                    <!-- Implant Box
                     <div class="implant">
                         <img src="/assets/images/eo-raf-implants.png">
                         <h4 class="implant-text">
                             FREE +2 Implant Set when you convert to OMEGA in January!
                         </h4>
                     </div>
+                    -->
                 </div>
             </div>
             <a href="https://www.eveonline.com/signup/?invc=1b837e6f-98b1-425d-8186-a08ec45db76b" target="_blank">
-                <div class="row sub-header">
+                <div class="row free-sp-isk">
                     <p>Get 250,000 Skill Points & 600 MILLION ISK for FREE!</p>
                 </div>
             </a>
@@ -62,7 +71,7 @@
         <section class="container-fluid content-width">
             <a href="https://www.eveonline.com/signup/?invc=1b837e6f-98b1-425d-8186-a08ec45db76b" target="_blank">
                 <div class="row raf-link">
-                    <p>Follow This Link To Get Started</p>
+                    <p><span class="hidden-xs">Follow This Link To </span>Start Playing Now</p>
                 </div>
             </a>
         </section>
@@ -74,9 +83,31 @@
                     <div class="main-text mt-left-col">
                         <h3>Is Eve any good?</h3>
                         <p>I’m biased, but yes, it’s probably the best game you’ve never played. No need to take my word for it though, Eve is now Free To Play. However, as with most F2P games, it really comes into it’s own when you add a paid subscription.</p>
-                        <p>If you want to see the differences for yourself, look here.</p>
+                        <p>If you want a more detailed list of the differences between the 2 account types, the <a href="https://support.eveonline.com/hc/en-us/articles/213020969-Alpha-and-Omega-Clone" target="_blank">button</a> below will take you page
+                            with a handy comparison table.</p>
+                        <p class="text-center">
+                            <a href="https://support.eveonline.com/hc/en-us/articles/213020969-Alpha-and-Omega-Clone" target="_blank">
+                                <button type="button" class="btn btn-info">Alpha vs Omega : The Differences</button>
+                            </a>
+                        </p>
                         <p>Using my Recruit A Friend link above allows you to create a free account with an additional 250,000 skill points you wouldn’t normally get if you created an account direct through the Eve-Online website.</p>
-                        <p>Once ingame, I always advise the best place to start for advice is the Rookie Help chat channel, and having a read of this, courtesy of Eve-Uni.</p>
+                        <p>Once ingame, I always advise the best place to start for advice is the Rookie Help chat channel, and having a read of the <a href="https://wiki.eveuniversity.org/Main_Page" target="_blank">Eve-Uni</a> <a href="https://wiki.eveuniversity.org/Getting_Started_in_EVE_Online"
+                                target="_blank">Getting Started</a> guide.</p>
+                        <div class="row text-center">
+                            <div class="col-xs-6">
+                                <a href="https://support.eveonline.com/hc/en-us/articles/213020969-Alpha-and-Omega-Clone" target="_blank">
+                                    <button type="button" class="btn btn-info btn--wider">Eve - Uni Website</button>
+                                </a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="https://support.eveonline.com/hc/en-us/articles/213020969-Alpha-and-Omega-Clone" target="_blank">
+                                    <button type="button" class="btn btn-info btn--wider">Getting Started</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="visible-xs visible-sm">
+                            <hr class="hr-color-green">
+                        </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -89,6 +120,11 @@
                             <p>When you decide to upgrade to an Omega clone (ie. paid subscription), you do this using a supported payment method (see FAQ’s for full list) and once done, contact me in-game (within 3 days) and I’ll arrange your Isk, usually
                                 within 24 -48 hours.</p>
                             <p>If you don’t ever upgrade to an Omega clone, that’s fine too, nothing lost.</p>
+                            <p class="text-center">
+                                <a href="https://www.eveonline.com/signup/?invc=1b837e6f-98b1-425d-8186-a08ec45db76b" target="_blank">
+                                    <button type="button" class="btn btn-info">Start Playing Now</button>
+                                </a>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -96,14 +132,40 @@
 
         <!-- FAQ's -->
         <section class="container-fluid content-width">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="faqs">
-                        <h3>Have question? Get some answers.</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe cupiditate nemo alias quisquam explicabo similique nesciunt in recusandae animi reprehenderit.
-                        </p>
-                    </div>
+            <div class="row faqs">
+                <h2>Frequently Asked Questions</h2>
+                <div class="col-xs-12 col-md-6 col-lg-4 faq-detail">
+                    <h4>What method should I use to pay for my account?</h4>
+                    <p>Your account can be paid for using any of the methods CCP provide. However, I can only claim a PLEX reward if you pay using Credit/Debit cards, PayPal, WebMoney Transfer, paysafecard, and iDeal. This in turn means I can only give you
+                        your ISK if you subscribe using one of the above methods.</p>
+                    <h4>Can I subscribe with a PLEX myself?</h4>
+                    <p>No. The following payment methods WILL NOT work for this offer: Direct Debit, CD Keys, including CD Keys purchased or received from non-CCP sources and online stores such as, but not limited to: Steam Store, Direct2Drive, Gamers Gate,
+                        Impulse Driven.</p>
+                    <p>You can only use the payment methods listed in the previous question to guarantee you get your ISK.</p>
+                    <h4>Can’t I buy ISK for real world cash?</h4>
+                    <p>Absolutely not. The purchase of ISK for real word cash is against the rules and will, quite rightly, get you banned. You can purchase PLEX direct from the Eve account page, and then sell in-game for ISK. This is allowed. Any other
+                        method of obtaining in-game currency in exchange for real world cash is strictly prohibited.</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 faq-detail">
+                    <h4>How do I know you will send my ISK?</h4>
+                    <p>In Eve-Online, reputation is everything. Sure, I could make a couple of billion at first by not honouring my word, but people would soon catch on. Before long, no one would trust me and business would dry up very quickly. Over the
+                        long term, this would be a very stupid thing to do!</p>
+                    <p>Additionally, ISK is not all that hard to come by in Eve. For a new player, it's a significant amount, but when you have been playing for a number of years, it’s not that big a deal anymore.</p>
+                    <p>If you do start playing, you will see that for yourself soon enough.</p>
+                    <h4>I’m stuck! Eve is hard, please help me!</h4>
+                    <p>You’re not the first, and you certainly won’t be the last person to think that when starting Eve for the first time. I did! Stick with it though, the rewards make the learning curve worthwhile. If you ever need help, advice, or just
+                        someone to bounce ideas off, you can always look me up in-game, character Type Blue.</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 faq-detail">
+                    <h4>Isn’t this the same as buying ISK for cash?</h4>
+                    <p>Not at all. The recruit a friend program is designed to reward players who get friends to sign up for paid accounts, as ultimately this benefits CCP and the game as a whole. I have every right to keep the PLEX I gain from you signing
+                        up, and it’s my choice to give you this ISK as a thank you for using my recruit a friend link.</p>
+                    <h4>How long do I have to claim my ISK?</h4>
+                    <p>You need to contact me within 3 days of converting to an Omega clone. Most people contact me within 3 minutes! Any longer and it becomes difficult to track who has converted. It helps if you also provide the date and time you originally
+                        signed up for your account. I may not always need this, but sometimes I will, so I’d always advise sending this information anyway.</p>
+                    <p>After 3 days I’ll still try and match up your details on the CCP “RECRUITS AND REWARDS CENTER” page, but it’s not always easy when there are a lot of people converting, so no promises! After 7 days, if no one claims, I’m afraid my
+                        offer will not longer be valid so please, get in touch as soon as you can to avoid missing out.</p>
+                    <p>The best advice I can give is to only convert when you can log into the Eve client, and the minute you convert, send me an evemail with your details. Do that, and your ISK is guaranteed.</p>
                 </div>
             </div>
         </section>

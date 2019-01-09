@@ -12,17 +12,12 @@
     width: 60%;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
 }
 
 .content-width {
     width: 100%;
 }
-
-.add-cell {
-    display: table-cell;
-}
-
-/*-------------------------------------------------Top Row-*/
 
 .equal {
     display: flex;
@@ -30,6 +25,8 @@
     flex-wrap: wrap;
     align-items: center;
 }
+
+/*-------------------------------------------------Top Row-*/
 
 .main-title {
     font-family: "Orbitron", sans-serif;
@@ -42,6 +39,35 @@
     margin: 10px;
     margin: 0 auto;
 
+}
+
+.title-divider {
+    width: 100px;
+    height: 3px;
+    border: 0;
+    background-color: #407f7f;
+}
+
+.upgrade {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 0px 20px 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: #407f7f;
+    border-style: solid;
+    margin: 10px 0 10px;
+}
+
+.upgrade p {
+    margin: 14px 0 20px;
+}
+
+.fa-coins {
+    font-size: 60px;
+    color: #407f7f;
 }
 
 .implant {
@@ -70,49 +96,13 @@
     height: auto;
 }
 
-.black-border {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #000;
-    margin-left: -10px;
-    margin-right: 10px;
-}
-
-.title-divider {
-    width: 100px;
-    height: 3px;
-    border: 0;
-    background-color: #352582;
-}
-
-
-.NOTUSEDtop-row {
-    /*min-height: 140px;*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.NOTUSEDheader-wrapper {
-    margin-top: 30px;
-}
-
-.main-titleOLD {
-    /*min-height: 260px;*/
-    align-items: center;
-    justify-content: center;
-}
 
 /*----------------------------------------------Sub Header-*/
 
-.sub-header {
-    min-height: 120px;
+.free-sp-isk {
     margin-top: 0px;
     margin-bottom: 30px;
-    padding: 0 15px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 15px;
     text-align: center;
 
     background-color: #000;
@@ -121,6 +111,10 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 36px;
+}
+
+.free-sp-isk p {
+    margin: 0px;
 }
 
 /*-------------------------------------------------Section-*/
@@ -154,6 +148,38 @@
     margin-top: 0px;
 }
 
+.main-text a {
+    color: inherit;
+}
+
+.main-text a:hover {
+    color: #407f7f;
+    transition: .5s;
+}
+
+
+.btn-info {
+    width: 50%;
+    white-space: normal;
+    margin: 10px 0 10px;
+    background-color: #407f7f;
+    border-color: #407f7f;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:active:focus {
+    background-color: #226666;
+    border-color: #226666;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn--wider {
+    width: 75%;
+}
+
 .mt-left-col {
     padding-right: 5px;
 }
@@ -176,14 +202,21 @@
 .raf-link:hover {
     padding: 26px;
     border-width: 4px 0;
-    border-color: #000;
+    border-color: #226666;
     border-style: solid;
-    background-color: #e26d00;
-    color: #000;
+    background-color: #226666;
+    color: #fff;
 }
 
 .raf-link p {
     margin: 0;
+}
+
+.hr-color-green {
+    height: 1px;
+    background-color: #407f7f;
+    width: 75%;
+    margin-bottom: 0px;
 }
 
 /*---------------------------------------------------FAQ's-*/
@@ -192,11 +225,31 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1.1em;
+    color: #666;
     line-height: 1.5em;
-    background-color: #aaa;
-    padding: 15px 15px 0px;
-    min-height: 200px;
-    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 12px;
+    /*margin-bottom: 30px;*/
+}
+
+.faqs h2 {
+    color: #333;
+    margin: 20px 12px 30px;
+
+}
+
+.faq-detail {
+
+    padding: 0 12px;
+}
+
+.faq-detail h4 {
+    color: #333;
+    margin: 0px 0px 8px;
+}
+
+.faq-detail p {
+    text-align: justify;
 }
 
 
@@ -206,7 +259,7 @@ footer p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 11px;
-    color: #ccc;
+    color: #666;
     background-color: #333;
     padding: 15px;
     line-height: 1.7em;
@@ -225,11 +278,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
-
-
 }
-
 
 .bg-fade {
     position: absolute;
@@ -254,5 +303,21 @@ body {
     }
     .wrapper-black {
         width: 90%;
+    }
+    .mt-left-col {
+        padding-right: 15px;
+    }
+
+    .mt-right-col {
+        padding-left: 15px;
+    }
+    .main-text {
+        text-align: justify;
+    }
+}
+
+@media(max-width: 1199px) {
+    .main-text {
+        text-align: justify;
     }
 }
