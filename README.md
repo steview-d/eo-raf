@@ -45,9 +45,9 @@ This website contains 1 singular goal, which all the below features are geared t
 This site has been tested from a user perspective on numerous devices, listed below
 - Chrome Version 71.0.3578.98 @ 1920, 2560 & 3440px widths.
 - Chrome Version 71.0.3578.98 various widths with Chrome Developer Tools
-- Edge Version 71.0.3578.98 @ 1920, 2560 & 3440px widths
-- Opera Version 71.0.3578.98 @ 1920, 2560 & 3440px widths
-- IE Version 71.0.3578.98 @ 1920, 2560 & 3440px widths
+- Edge Version 42.17134.1.0 @ 1920, 2560 & 3440px widths
+- Opera Version 57.0.3098.116 @ 1920, 2560 & 3440px widths
+- IE11 Version 11.523.171343.0 @ 1920, 2560 & 3440px widths
 - Pixel 2 XL
 - iPhone 8S
 

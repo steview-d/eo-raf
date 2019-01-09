@@ -120,7 +120,7 @@
 /*-------------------------------------------------Section-*/
 
 .tb-pic {
-    background: url('/assets/images/tb.jpg');
+    background: url('../images/tb.jpg');
     background-color: #000;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,7 +270,7 @@ footer p {
 
 body {
     background-color: #000;
-    background-image: url('/assets/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -319,5 +319,14 @@ body {
 @media(max-width: 1199px) {
     .main-text {
         text-align: justify;
+    }
+}
+
+@media(min-width: 1921px) {
+    .wrapper-white {
+        width: 40%;
+    }
+    .wrapper-black {
+        width: 40%;
     }
 }
