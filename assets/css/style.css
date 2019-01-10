@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Orbitron:100,200,300,400,500,600,700');
-
 /*------------------------------------------------Wrappers-*/
 
 .wrapper-white {
     width: 60%;
     padding: 0;
+    background-color: #000;
     background-color: rgba(255, 255, 255, 0.85);
 }
 
 .wrapper-black {
     width: 60%;
     padding: 0;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 50px;
 }
@@ -42,10 +42,11 @@
 }
 
 .title-divider {
-    width: 100px;
+    width: 15%;
     height: 3px;
     border: 0;
     background-color: #407f7f;
+    margin: 0 auto;
 }
 
 .upgrade {
@@ -53,9 +54,9 @@
     font-weight: 300;
     font-size: 1.2em;
     line-height: 1.2em;
-    padding: 0px 20px 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+    padding: 10px 20px 0;
+    border-right-width: 0;
+    border-left-width: 0;
     border-color: #407f7f;
     border-style: solid;
     margin: 10px 0 10px;
@@ -70,37 +71,10 @@
     color: #407f7f;
 }
 
-.implant {
-    -webkit-box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
-    -moz-box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
-    box-shadow: 10px 10px 8px 0px rgba(102, 102, 102, 0.75);
-    text-align: center;
-    padding: 20px 0px 10px;
-    border-style: none;
-    border-radius: 12px;
-    background-color: rgba(160, 160, 160, 0.4);
-    margin: 22px 15px 28px 0;
-}
-
-.implant-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    text-align: center;
-    padding: 0px 20px 0px;
-}
-
-.implant img {
-    width: 60%;
-    height: auto;
-}
-
-
 /*----------------------------------------------Sub Header-*/
 
 .free-sp-isk {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 30px;
     padding: 20px 15px;
     text-align: center;
@@ -114,7 +88,7 @@
 }
 
 .free-sp-isk p {
-    margin: 0px;
+    margin: 0;
 }
 
 /*-------------------------------------------------Section-*/
@@ -137,24 +111,12 @@
     font-weight: 300;
     font-size: 1.2em;
     line-height: 1.8em;
-
-    padding: 0px 15px 15px 15px;
-
-    margin-bottom: 30px;
+    padding: 0 15px 15px 15px;
+    margin: 0 auto 30px;
 }
 
-
-.main-text h3 {
-    margin-top: 0px;
-}
-
-.main-text a {
-    color: inherit;
-}
-
-.main-text a:hover {
-    color: #407f7f;
-    transition: .5s;
+h3 {
+    margin-top: 0;
 }
 
 
@@ -166,18 +128,29 @@
     border-color: #407f7f;
 }
 
-.btn-info:hover,
-.btn-info:active,
-.btn-info:focus,
-.btn-info:active:focus {
+.btn-info:hover {
     background-color: #226666;
     border-color: #226666;
     color: white;
     transition: 0.2s;
 }
 
+.btn-info:focus,
+.btn-info:active,
+.btn-info:active:focus {
+    background-color: #226666;
+    border-color: #226666;
+    color: white;
+    transition: 0.2s;
+    outline: 0;
+}
+
 .btn--wider {
     width: 75%;
+}
+
+.link-text-color {
+    color: #000;
 }
 
 .mt-left-col {
@@ -196,7 +169,7 @@
     padding: 30px;
     background-color: #000;
     color: #fff;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 .raf-link:hover {
@@ -216,7 +189,7 @@
     height: 1px;
     background-color: #407f7f;
     width: 75%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /*---------------------------------------------------FAQ's-*/
@@ -227,31 +200,30 @@
     font-size: 1.1em;
     color: #666;
     line-height: 1.5em;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 12px;
     /*margin-bottom: 30px;*/
 }
 
-.faqs h2 {
+.faq-title {
     color: #333;
     margin: 20px 12px 30px;
-
 }
 
 .faq-detail {
-
     padding: 0 12px;
 }
 
-.faq-detail h4 {
+.faq-detail-q {
     color: #333;
-    margin: 0px 0px 8px;
+    margin: 0 0 8px;
 }
+
 
 .faq-detail p {
     text-align: justify;
 }
-
 
 /*--------------------------------------------------Footer-*/
 
@@ -278,15 +250,6 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.bg-fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.05)
 }
 
 /*----------------------------------------------------Misc-*/
